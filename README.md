@@ -1,5 +1,5 @@
 # Left-to-Right Dependency Parsing with Bottom-up Hierarchical Pointer Networks
-This repository includes the code of the left-to-right dependency parser with Bottom-up Hierarchical Pointer Networks described in ACL paper [Dependency Parsing with Bottom Hierarchical Pointer Networks](https://arxiv.org/abs/). The implementation is based on the dependency parser by Liu et al. (2019) (https://github.com/ntunlp/ptrnet-depparser) and reuses part of its code, including data preparation and evaluating scripts.
+This repository includes the code of the left-to-right dependency parser with Bottom-up Hierarchical Pointer Networks described in the paper [Dependency Parsing with Bottom Hierarchical Pointer Networks](https://arxiv.org/abs/2105.09611). The implementation is based on the dependency parser by Liu et al. (2019) (https://github.com/ntunlp/ptrnet-depparser) and reuses part of its code, including data preparation and evaluating scripts.
 
 
 ## Requirements
@@ -13,19 +13,14 @@ Python 2.7, PyTorch >=0.4.1, Gensim >= 0.12.0
 
 ## Citation
 ``` 
-    @inproceedings{fernandez-gonzalez-gomez-rodriguez-2019-left,
-                title = "Left-to-Right Dependency Parsing with Pointer Networks",
-		            author = "Fern{\'a}ndez-Gonz{\'a}lez, Daniel  and G{\'o}mez-Rodr{\'\i}guez, Carlos",
-			                booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational    Linguistics: Human Langua\
-ge Technologies, Volume 1 (Long and Short Papers)",
-            month = jun,
-	                year = "2019",
-			            address = "Minneapolis, Minnesota",
-				                publisher = "Association for Computational Linguistics",
-						            url = "https://www.aclweb.org/anthology/N19-1076",
-							                doi = "10.18653/v1/N19-1076",
-									            pages = "710--716"
-										                }
+@misc{fernándezgonzález2021dependency,
+      title={Dependency Parsing with Bottom-up Hierarchical Pointer Networks}, 
+      author={Daniel Fernández-González and Carlos Gómez-Rodríguez},
+      year={2021},
+      eprint={2105.09611},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Acknowledgments
