@@ -13,13 +13,18 @@ Python 2.7, PyTorch >=0.4.1, Gensim >= 0.12.0
 
 ## Citation
 ``` 
-@misc{fernándezgonzález2021dependency,
-      title={Dependency Parsing with Bottom-up Hierarchical Pointer Networks}, 
-      author={Daniel Fernández-González and Carlos Gómez-Rodríguez},
-      year={2021},
-      eprint={2105.09611},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{FERNANDEZGONZALEZ2023494,
+title = {Dependency parsing with bottom-up Hierarchical Pointer Networks},
+journal = {Information Fusion},
+volume = {91},
+pages = {494-503},
+year = {2023},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2022.10.023},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253522001993},
+author = {Daniel Fernández-González and Carlos Gómez-Rodríguez},
+keywords = {Natural language processing, Computational linguistics, Parsing, Dependency parsing, Neural network, Deep learning},
+abstract = {Dependency parsing is a crucial step towards deep language understanding and, therefore, widely demanded by numerous Natural Language Processing applications. In particular, left-to-right and top-down transition-based algorithms that rely on Pointer Networks are among the most accurate approaches for performing dependency parsing. Additionally, it has been observed for the top-down algorithm that Pointer Networks’ sequential decoding can be improved by implementing a hierarchical variant, more adequate to model dependency structures. Considering all this, we develop a bottom-up oriented Hierarchical Pointer Network for the left-to-right parser and propose two novel transition-based alternatives: an approach that parses a sentence in right-to-left order and a variant that does so from the outside in. We empirically test the proposed neural architecture with the different algorithms on a wide variety of languages, outperforming the original approach in practically all of them and setting new state-of-the-art results on the English and Chinese Penn Treebanks for non-contextualized and BERT-based embeddings.}
 }
 ```
 
